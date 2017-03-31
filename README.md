@@ -2,6 +2,10 @@
 appidocsnippets  
 
   Inline Documentation for RESTful web APIs with ApiDoc - Snippets 
+# Example: ![Image of Snippets](https://raw.githubusercontent.com/Krazeus/ApiDocSnippets/master/images/basic.gif) 
+![Image of Snippets](https://raw.githubusercontent.com/Krazeus/ApiDocSnippets/master/images/custom.gif) 
+### Content:  
+
 - [ApiDoc Api](#api)
 - [ApiDoc Define](#apidefine)
 - [ApiDoc Deprecated](#apideprecated)

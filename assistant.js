@@ -24,10 +24,11 @@ for (let index = 0; index < keyList.length; index++) {
 
 }
 let docContent = '# ' + package.displayName + '  \n' + package.name + '  \n\n  ' + package.description + ' \n';
+docContent += "# Example: ";
+docContent += '![Image of Snippets](https://raw.githubusercontent.com/Krazeus/ApiDocSnippets/master/images/basic.gif) \n';
+docContent += '![Image of Snippets](https://raw.githubusercontent.com/Krazeus/ApiDocSnippets/master/images/custom.gif) \n';
 
-docContent += '![Image of Snippets](https://raw.githubusercontent.com/Krazeus/ApiDocSnippets/master/images/basic.png)';
-docContent += '![Image of Snippets](https://raw.githubusercontent.com/Krazeus/ApiDocSnippets/master/images/custom.png)';
-
+docContent += '### Content:  \n\n';
 docContent += contentList.join('') + '\n\n';
 docContent += '### Example:  \n\n';
 docContent += documentList.join('');
