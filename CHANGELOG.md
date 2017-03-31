@@ -1,4 +1,8 @@
 
+= 0.1.8 (2017-03-31)
+
+* add example use 
+
 = 0.1.7 (2017-03-31)
 
 * Fix  example space to documentation 
