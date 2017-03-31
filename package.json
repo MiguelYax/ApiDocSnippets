@@ -1,14 +1,17 @@
 {
   "name": "appidocsnippets",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "displayName": "ApiDoc Snippets",
   "description": "Inline Documentation for RESTful web APIs with ApiDoc - Snippets",
   "publisher": "myax",
   "author": "Miguel Yax <mig_dj@hotmail.com>",
-  "main": "index.js",
   "icon": "images/icon.png",
   "engines": {
-    "vscode": "0.10.x"
+    "vscode": "^0.10.1"
+  },
+  "galleryBanner": {
+    "color": "#ffffff",
+    "theme": "light"
   },
   "categories": [
     "Snippets"
