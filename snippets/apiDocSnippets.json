@@ -23,18 +23,18 @@
 			" * @apiSuccess ${11:group:(${12:200})} {${13:String}} ${14:name} ${15:description}",
 			" * ",
 			" * @apiParamExample  {${16:type}} ${17:Request-Example:}",
-			"	${18:example}",
+			" * ${18:example}",
 			" * ",
 			" * ",
 			" * @apiSuccessExample {${19:type}} ${20:Success-Response:}",
-			"	${21:example}",
+			" * ${21:example}",
 			" * ",
 			" */"
 		],
 		"description": "ApiDoc Documentation"
 	},
 	"apiParam": {
-		"prefix": "adParameter",
+		"prefix": "adParam",
 		"body": [
 			"@apiParam  {${String}} ${name} ${description}"
 		],
@@ -75,7 +75,7 @@
 		],
 		"description": "ApiDoc Api"
 	},
-	"apiName ": {
+	"apiName": {
 		"prefix": "adName",
 		"body": [
 			"@apiName ${name}"
@@ -83,7 +83,7 @@
 		"description": "ApiDoc Name"
 	},
 	"apiGroup": {
-		"prefix": "adDescription",
+		"prefix": "adGroup",
 		"body": [
 			"@apiGroup ${group}"
 		],
@@ -96,7 +96,7 @@
 		],
 		"description": "ApiDoc Use"
 	},
-	"apiVersion ": {
+	"apiVersion": {
 		"prefix": "adVersion",
 		"body": [
 			"@apiVersion  ${major}.${minor}.${patch}"
@@ -107,7 +107,7 @@
 		"prefix": "adDefine",
 		"body": [
 			"@apiDefine ${name} ${title}",
-			"	${description}"
+			"    ${description} "
 		],
 		"description": "ApiDoc Define"
 	},
@@ -115,7 +115,7 @@
 		"prefix": "adErrorExample",
 		"body": [
 			"@apiErrorExample {${type}} ${title:Error-Response:}",
-			"	${example}"
+			"    ${example}"
 		],
 		"description": "ApiDoc Error Example"
 	},
@@ -123,7 +123,7 @@
 		"prefix": "adParamExample",
 		"body": [
 			"@apiParamExample  {${type}} ${title:Request-Example:}",
-			"	${example}"
+			"    ${example}"
 		],
 		"description": "ApiDoc Param Example"
 	},
@@ -131,7 +131,7 @@
 		"prefix": "adSuccessExample ",
 		"body": [
 			"@apiSuccessExample {${type}} ${title:Success-Response:}",
-			"	${example}"
+			"    ${example}"
 		],
 		"description": "ApiDoc Param Example"
 	},
@@ -139,7 +139,7 @@
 		"prefix": "adHeaderExample",
 		"body": [
 			"@apiHeaderExample {${type}} ${title:Request-Example:}",
-			"	${example}"
+			"    ${example}"
 		],
 		"description": "ApiDoc Header Example"
 	},
@@ -147,7 +147,7 @@
 		"prefix": "adExample",
 		"body": [
 			"@apiExample {${type}} ${title:Example usage:}",
-			"	${example}"
+			"    ${example}"
 		],
 		"description": "ApiDoc Error Example"
 	},

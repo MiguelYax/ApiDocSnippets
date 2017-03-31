@@ -1,57 +1,58 @@
-# ApiDocSnippets
-Api Doc Snippets for Visual Studio Code
+# ApiDoc Snippets  
+appidocsnippets  
 
-- [api](#api)
-- [apiDefine](#apidefine)
-- [apiDeprecated](#apideprecated)
-- [apiDescription](#apidescription)
-- [apiDocumentation](#apidocumentation)
-- [apiErrorExample](#apierrorexample)
-- [apiExample](#apiexample)
-- [apiGroup](#apigroup)
-- [apiHeader](#apiheader)
-- [apiHeaderExample](#apiheaderexample)
-- [apiName ](#apiname-)
-- [apiParam](#apiparam)
-- [apiParamExample](#apiparamexample)
-- [apiPermission](#apipermission)
-- [apiSampleRequest](#apisamplerequest)
-- [apiSuccess](#apisuccess)
-- [apiSuccessExample](#apisuccessexample)
-- [apiUse](#apiuse)
-- [apiVersion ](#apiversion-)
-- [comment](#comment)
+  Inline Documentation for RESTful web APIs with ApiDoc - Snippets 
+- [ApiDoc Api](#api)
+- [ApiDoc Define](#apidefine)
+- [ApiDoc Deprecated](#apideprecated)
+- [ApiDoc Description](#apidescription)
+- [ApiDoc Documentation](#apidocumentation)
+- [ApiDoc Error Example](#apierrorexample)
+- [ApiDoc Error Example](#apiexample)
+- [ApiDoc Group](#apigroup)
+- [ApiDoc Header](#apiheader)
+- [ApiDoc Header Example](#apiheaderexample)
+- [ApiDoc Name](#apiname)
+- [ApiDoc Parameter](#apiparam)
+- [ApiDoc Param Example](#apiparamexample)
+- [ApiDoc Permission](#apipermission)
+- [ApiDoc Sample Request](#apisamplerequest)
+- [ApiDoc Success](#apisuccess)
+- [ApiDoc Param Example](#apisuccessexample)
+- [ApiDoc Use](#apiuse)
+- [ApiDoc Version](#apiversion)
+- [comment code](#comment)
 
 
 ### Example:  
 
 ### api
-#### `adApi+tab` 
+#### `adApi + tab` 
 ```
 @api {${method}} /${path} ${title}
 ``` 
 
 ### apiDefine
-#### `adDefine+tab` 
+#### `adDefine + tab` 
 ```
 @apiDefine ${name} ${title}
-	${description}
+    ${description} 
 ``` 
 
 ### apiDeprecated
-#### `adDeprecated+tab` 
+#### `adDeprecated + tab` 
 ```
 @apiDeprecated ${text}
 ``` 
 
 ### apiDescription
-#### `adDescription+tab` 
+#### `adDescription + tab` 
 ```
 @apiDescription ${text}
 ``` 
 
 ### apiDocumentation
-#### `adDocumentation+tab` 
+#### `adDocumentation + tab` 
 ```
 /**
  * @api {${0:method}} /${1:path} ${2:title}
@@ -65,108 +66,109 @@ Api Doc Snippets for Visual Studio Code
  * @apiSuccess ${11:group:(${12:200})} {${13:String}} ${14:name} ${15:description}
  * 
  * @apiParamExample  {${16:type}} ${17:Request-Example:}
-	${18:example}
+ * ${18:example}
  * 
  * 
  * @apiSuccessExample {${19:type}} ${20:Success-Response:}
-	${21:example}
+ * ${21:example}
  * 
  */
 ``` 
 
 ### apiErrorExample
-#### `adErrorExample+tab` 
+#### `adErrorExample + tab` 
 ```
 @apiErrorExample {${type}} ${title:Error-Response:}
-	${example}
+    ${example}
 ``` 
 
 ### apiExample
-#### `adExample+tab` 
+#### `adExample + tab` 
 ```
 @apiExample {${type}} ${title:Example usage:}
-	${example}
+    ${example}
 ``` 
 
 ### apiGroup
-#### `adDescription+tab` 
+#### `adGroup + tab` 
 ```
 @apiGroup ${group}
 ``` 
 
 ### apiHeader
-#### `adHeader+tab` 
+#### `adHeader + tab` 
 ```
 @apiHeader ${group:(${code:200})} {${type}} ${field} ${description}
 ``` 
 
 ### apiHeaderExample
-#### `adHeaderExample+tab` 
+#### `adHeaderExample + tab` 
 ```
 @apiHeaderExample {${type}} ${title:Request-Example:}
-	${example}
+    ${example}
 ``` 
 
-### apiName 
-#### `adName+tab` 
+### apiName
+#### `adName + tab` 
 ```
 @apiName ${name}
 ``` 
 
 ### apiParam
-#### `adParameter+tab` 
+#### `adParam + tab` 
 ```
 @apiParam  {${String}} ${name} ${description}
 ``` 
 
 ### apiParamExample
-#### `adParamExample+tab` 
+#### `adParamExample + tab` 
 ```
 @apiParamExample  {${type}} ${title:Request-Example:}
-	${example}
+    ${example}
 ``` 
 
 ### apiPermission
-#### `adPermission+tab` 
+#### `adPermission + tab` 
 ```
 @apiPermission ${name}
 ``` 
 
 ### apiSampleRequest
-#### `adSampleRequest+tab` 
+#### `adSampleRequest + tab` 
 ```
 @apiSampleRequest ${url}
 ``` 
 
 ### apiSuccess
-#### `adSuccess+tab` 
+#### `adSuccess + tab` 
 ```
 @apiSuccess ${group:(${code:200})} {${type}} ${name} ${description}
 ``` 
 
 ### apiSuccessExample
-#### `adSuccessExample +tab` 
+#### `adSuccessExample  + tab` 
 ```
 @apiSuccessExample {${type}} ${title:Success-Response:}
-	${example}
+    ${example}
 ``` 
 
 ### apiUse
-#### `adUse+tab` 
+#### `adUse + tab` 
 ```
 @apiUse ${name}
 ``` 
 
-### apiVersion 
-#### `adVersion+tab` 
+### apiVersion
+#### `adVersion + tab` 
 ```
 @apiVersion  ${major}.${minor}.${patch}
 ``` 
 
 ### comment
-#### `cc+tab` 
+#### `cc + tab` 
 ```
 /**
  * ${1}
  */
 ``` 
+

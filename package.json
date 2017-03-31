@@ -6,6 +6,7 @@
   "publisher": "myax",
   "author": "Miguel Yax <mig_dj@hotmail.com>",
   "main": "index.js",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "0.10.x"
   },
