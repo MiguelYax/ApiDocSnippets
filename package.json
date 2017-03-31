@@ -1,7 +1,8 @@
 {
   "name": "appidocsnippets",
-  "version": "0.1.0",
-  "description": "ApiDoc Snippets",
+  "version": "0.1.2",
+  "displayName": "ApiDoc Snippets",
+  "description": "Inline Documentation for RESTful web APIs with ApiDoc - Snippets",
   "publisher": "myax",
   "author": "Miguel Yax <mig_dj@hotmail.com>",
   "main": "index.js",
@@ -11,21 +12,15 @@
   "categories": [
     "Snippets"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Krazeus/ApiDocSnippets.git"
+    "url": "https://github.com/Krazeus/ApiDocSnippets.git"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Krazeus/ApiDocSnippets/issues"
   },
   "homepage": "https://github.com/Krazeus/ApiDocSnippets#readme",
-  "dependencies": {
-    "apidoc": "^0.17.5"
-  },
   "contributes": {
     "languages": [
       {
@@ -45,5 +40,5 @@
         "path": "./snippets/apiDocSnippets.json"
       }
     ]
-  },
+  }
 }
