@@ -23,9 +23,10 @@ for (let index = 0; index < keyList.length; index++) {
     documentList.push('```\n' + snippet.body.join('\n') + '\n``` \n\n');
 
 }
-let docContent = '# ' + package.displayName + '  \n' + package.name + '  \n\n  ' + package.description + ' \n';
-docContent += "# Example: ";
+let docContent = '# ' + package.displayName + '  \n' + package.name + '  \n\n  # ' + package.description + ' \n';
+docContent += "### Basic documetation example: \n\n";
 docContent += '![Image of Snippets](https://raw.githubusercontent.com/Krazeus/ApiDocSnippets/master/images/basic.gif) \n';
+docContent += "### Custom documentation example: \n\n";
 docContent += '![Image of Snippets](https://raw.githubusercontent.com/Krazeus/ApiDocSnippets/master/images/custom.gif) \n';
 
 docContent += '### Content:  \n\n';
