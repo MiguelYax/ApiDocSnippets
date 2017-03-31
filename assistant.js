@@ -5,8 +5,7 @@
  */
 
 let fs = require('fs');
-
-const package = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+const package = require('./package.json');
 const rawSnippets = require('./snippets/apiDocSnippets.json');
 
 let contentList = [];
@@ -19,7 +18,7 @@ for (let index = 0; index < keyList.length; index++) {
     let snippet = rawSnippets[name];
     let lowerName = name.toLowerCase().replace(/\s/g, '-');
     contentList.push('- [' + snippet.description + '](#' + lowerName + ')\n');
-    documentList.push('### ' + name + '\n');
+    documentList.push('### @' + name + '\n');
     documentList.push('#### `' + snippet.prefix + ' + tab` \n');
     documentList.push('```\n' + snippet.body.join('\n') + '\n``` \n\n');
 

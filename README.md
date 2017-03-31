@@ -26,32 +26,32 @@ appidocsnippets
 
 ### Example:  
 
-### api
+### @api
 #### `adApi + tab` 
 ```
 @api {${method}} /${path} ${title}
 ``` 
 
-### apiDefine
+### @apiDefine
 #### `adDefine + tab` 
 ```
 @apiDefine ${name} ${title}
     ${description} 
 ``` 
 
-### apiDeprecated
+### @apiDeprecated
 #### `adDeprecated + tab` 
 ```
 @apiDeprecated ${text}
 ``` 
 
-### apiDescription
+### @apiDescription
 #### `adDescription + tab` 
 ```
 @apiDescription ${text}
 ``` 
 
-### apiDocumentation
+### @apiDocumentation
 #### `adDocumentation + tab` 
 ```
 /**
@@ -75,96 +75,96 @@ appidocsnippets
  */
 ``` 
 
-### apiErrorExample
+### @apiErrorExample
 #### `adErrorExample + tab` 
 ```
 @apiErrorExample {${type}} ${title:Error-Response:}
     ${example}
 ``` 
 
-### apiExample
+### @apiExample
 #### `adExample + tab` 
 ```
 @apiExample {${type}} ${title:Example usage:}
     ${example}
 ``` 
 
-### apiGroup
+### @apiGroup
 #### `adGroup + tab` 
 ```
 @apiGroup ${group}
 ``` 
 
-### apiHeader
+### @apiHeader
 #### `adHeader + tab` 
 ```
 @apiHeader ${group:(${code:200})} {${type}} ${field} ${description}
 ``` 
 
-### apiHeaderExample
+### @apiHeaderExample
 #### `adHeaderExample + tab` 
 ```
 @apiHeaderExample {${type}} ${title:Request-Example:}
     ${example}
 ``` 
 
-### apiName
+### @apiName
 #### `adName + tab` 
 ```
 @apiName ${name}
 ``` 
 
-### apiParam
+### @apiParam
 #### `adParam + tab` 
 ```
 @apiParam  {${String}} ${name} ${description}
 ``` 
 
-### apiParamExample
+### @apiParamExample
 #### `adParamExample + tab` 
 ```
 @apiParamExample  {${type}} ${title:Request-Example:}
     ${example}
 ``` 
 
-### apiPermission
+### @apiPermission
 #### `adPermission + tab` 
 ```
 @apiPermission ${name}
 ``` 
 
-### apiSampleRequest
+### @apiSampleRequest
 #### `adSampleRequest + tab` 
 ```
 @apiSampleRequest ${url}
 ``` 
 
-### apiSuccess
+### @apiSuccess
 #### `adSuccess + tab` 
 ```
 @apiSuccess ${group:(${code:200})} {${type}} ${name} ${description}
 ``` 
 
-### apiSuccessExample
+### @apiSuccessExample
 #### `adSuccessExample  + tab` 
 ```
 @apiSuccessExample {${type}} ${title:Success-Response:}
     ${example}
 ``` 
 
-### apiUse
+### @apiUse
 #### `adUse + tab` 
 ```
 @apiUse ${name}
 ``` 
 
-### apiVersion
+### @apiVersion
 #### `adVersion + tab` 
 ```
 @apiVersion  ${major}.${minor}.${patch}
 ``` 
 
-### comment
+### @comment
 #### `cc + tab` 
 ```
 /**

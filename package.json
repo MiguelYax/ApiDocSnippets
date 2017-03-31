@@ -44,5 +44,9 @@
         "path": "./snippets/apiDocSnippets.json"
       }
     ]
+  },
+  "devDependencies": {
+    "apidoc": "^0.17.5",
+    "express": "^4.15.2"
   }
 }
