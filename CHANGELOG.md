@@ -1,4 +1,12 @@
 
+= 0.1.7 (2017-03-31)
+
+* Fix  example space to documentation 
+
+= 0.1.5 (2017-03-31)
+
+* Fix index tab navigation snippet
+
 = 0.1.3 (2017-03-31)
 
 * Fix duplicated prefix to documentation 
