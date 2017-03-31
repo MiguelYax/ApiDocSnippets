@@ -55,10 +55,12 @@ appidocsnippets
 #### `adDocumentation + tab` 
 ```
 /**
+ * 
  * @api {${1:method}} /${2:path} ${3:title}
  * @apiName ${4:apiName}
  * @apiGroup ${5:group}
  * @apiVersion  ${6:major}.${7:minor}.${8:patch}
+ * 
  * 
  * @apiParam  {${9:String}} ${10:paramName} ${11:description}
  * ${23}
@@ -71,6 +73,7 @@ appidocsnippets
  * 
  * @apiSuccessExample {${20:type}} ${21:Success-Response:}
  * ${22:example}
+ * 
  * 
  */
 ``` 
