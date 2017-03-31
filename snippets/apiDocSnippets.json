@@ -1,0 +1,168 @@
+{
+	"comment": {
+		"prefix": "cc",
+		"body": [
+			"/**",
+			" * ${1}",
+			" */"
+		],
+		"description": "comment code"
+	},
+	"apiDocumentation": {
+		"prefix": "adDocumentation",
+		"body": [
+			"/**",
+			" * @api {${0:method}} /${1:path} ${2:title}",
+			" * @apiName ${3:apiName}",
+			" * @apiGroup ${4:group}",
+			" * @apiVersion  ${5:major}.${6:minor}.${7:patch}",
+			" * ",
+			" * @apiParam  {${8:String}} ${9:paramName} ${10:description}",
+			" * ${20}",
+			" * ",
+			" * @apiSuccess ${11:group:(${12:200})} {${13:String}} ${14:name} ${15:description}",
+			" * ",
+			" * @apiParamExample  {${16:type}} ${17:Request-Example:}",
+			"	${18:example}",
+			" * ",
+			" * ",
+			" * @apiSuccessExample {${19:type}} ${20:Success-Response:}",
+			"	${21:example}",
+			" * ",
+			" */"
+		],
+		"description": "ApiDoc Documentation"
+	},
+	"apiParam": {
+		"prefix": "adParameter",
+		"body": [
+			"@apiParam  {${String}} ${name} ${description}"
+		],
+		"description": "ApiDoc Parameter"
+	},
+	"apiSuccess": {
+		"prefix": "adSuccess",
+		"body": [
+			"@apiSuccess ${group:(${code:200})} {${type}} ${name} ${description}"
+		],
+		"description": "ApiDoc Success"
+	},
+	"apiHeader": {
+		"prefix": "adHeader",
+		"body": [
+			"@apiHeader ${group:(${code:200})} {${type}} ${field} ${description}"
+		],
+		"description": "ApiDoc Header"
+	},
+	"apiDeprecated": {
+		"prefix": "adDeprecated",
+		"body": [
+			"@apiDeprecated ${text}"
+		],
+		"description": "ApiDoc Deprecated"
+	},
+	"apiDescription": {
+		"prefix": "adDescription",
+		"body": [
+			"@apiDescription ${text}"
+		],
+		"description": "ApiDoc Description"
+	},
+	"api": {
+		"prefix": "adApi",
+		"body": [
+			"@api {${method}} /${path} ${title}"
+		],
+		"description": "ApiDoc Api"
+	},
+	"apiName ": {
+		"prefix": "adName",
+		"body": [
+			"@apiName ${name}"
+		],
+		"description": "ApiDoc Name"
+	},
+	"apiGroup": {
+		"prefix": "adDescription",
+		"body": [
+			"@apiGroup ${group}"
+		],
+		"description": "ApiDoc Group"
+	},
+	"apiUse": {
+		"prefix": "adUse",
+		"body": [
+			"@apiUse ${name}"
+		],
+		"description": "ApiDoc Use"
+	},
+	"apiVersion ": {
+		"prefix": "adVersion",
+		"body": [
+			"@apiVersion  ${major}.${minor}.${patch}"
+		],
+		"description": "ApiDoc Version"
+	},
+	"apiDefine": {
+		"prefix": "adDefine",
+		"body": [
+			"@apiDefine ${name} ${title}",
+			"	${description}"
+		],
+		"description": "ApiDoc Define"
+	},
+	"apiErrorExample": {
+		"prefix": "adErrorExample",
+		"body": [
+			"@apiErrorExample {${type}} ${title:Error-Response:}",
+			"	${example}"
+		],
+		"description": "ApiDoc Error Example"
+	},
+	"apiParamExample": {
+		"prefix": "adParamExample",
+		"body": [
+			"@apiParamExample  {${type}} ${title:Request-Example:}",
+			"	${example}"
+		],
+		"description": "ApiDoc Param Example"
+	},
+	"apiSuccessExample": {
+		"prefix": "adSuccessExample ",
+		"body": [
+			"@apiSuccessExample {${type}} ${title:Success-Response:}",
+			"	${example}"
+		],
+		"description": "ApiDoc Param Example"
+	},
+	"apiHeaderExample": {
+		"prefix": "adHeaderExample",
+		"body": [
+			"@apiHeaderExample {${type}} ${title:Request-Example:}",
+			"	${example}"
+		],
+		"description": "ApiDoc Header Example"
+	},
+	"apiExample": {
+		"prefix": "adExample",
+		"body": [
+			"@apiExample {${type}} ${title:Example usage:}",
+			"	${example}"
+		],
+		"description": "ApiDoc Error Example"
+	},
+	"apiSampleRequest": {
+		"prefix": "adSampleRequest",
+		"body": [
+			"@apiSampleRequest ${url}"
+		],
+		"description": "ApiDoc Sample Request"
+	},
+	"apiPermission": {
+		"prefix": "adPermission",
+		"body": [
+			"@apiPermission ${name}"
+		],
+		"description": "ApiDoc Permission"
+	}
+}
