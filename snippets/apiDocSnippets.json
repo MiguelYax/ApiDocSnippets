@@ -9,7 +9,7 @@
 		"description": "comment code"
 	},
 	"apiDocumentation": {
-		"prefix": "adDocumentation",
+		"prefix": "apiDocumentation",
 		"body": [
 			"/**",
 			" * ",
@@ -40,77 +40,77 @@
 		"description": "ApiDoc Documentation"
 	},
 	"apiParam": {
-		"prefix": "adParam",
+		"prefix": "apiParam",
 		"body": [
 			"@apiParam  {${String}} ${name} ${description}"
 		],
 		"description": "ApiDoc Parameter"
 	},
 	"apiSuccess": {
-		"prefix": "adSuccess",
+		"prefix": "apiSuccess",
 		"body": [
 			"@apiSuccess ${group:(${code:200})} {${type}} ${name} ${description}"
 		],
 		"description": "ApiDoc Success"
 	},
 	"apiHeader": {
-		"prefix": "adHeader",
+		"prefix": "apiHeader",
 		"body": [
 			"@apiHeader ${group:(${code:200})} {${type}} ${field} ${description}"
 		],
 		"description": "ApiDoc Header"
 	},
 	"apiDeprecated": {
-		"prefix": "adDeprecated",
+		"prefix": "apiDeprecated",
 		"body": [
 			"@apiDeprecated ${text}"
 		],
 		"description": "ApiDoc Deprecated"
 	},
 	"apiDescription": {
-		"prefix": "adDescription",
+		"prefix": "apiDescription",
 		"body": [
 			"@apiDescription ${text}"
 		],
 		"description": "ApiDoc Description"
 	},
 	"api": {
-		"prefix": "adApi",
+		"prefix": "apiApi",
 		"body": [
 			"@api {${method}} /${path} ${title}"
 		],
 		"description": "ApiDoc Api"
 	},
 	"apiName": {
-		"prefix": "adName",
+		"prefix": "apiName",
 		"body": [
 			"@apiName ${name}"
 		],
 		"description": "ApiDoc Name"
 	},
 	"apiGroup": {
-		"prefix": "adGroup",
+		"prefix": "apiGroup",
 		"body": [
 			"@apiGroup ${group}"
 		],
 		"description": "ApiDoc Group"
 	},
 	"apiUse": {
-		"prefix": "adUse",
+		"prefix": "apiUse",
 		"body": [
 			"@apiUse ${name}"
 		],
 		"description": "ApiDoc Use"
 	},
 	"apiVersion": {
-		"prefix": "adVersion",
+		"prefix": "apiVersion",
 		"body": [
 			"@apiVersion  ${major}.${minor}.${patch}"
 		],
 		"description": "ApiDoc Version"
 	},
 	"apiDefine": {
-		"prefix": "adDefine",
+		"prefix": "apiDefine",
 		"body": [
 			"@apiDefine ${name} ${title}",
 			"    ${description} "
@@ -118,7 +118,7 @@
 		"description": "ApiDoc Define"
 	},
 	"apiErrorExample": {
-		"prefix": "adErrorExample",
+		"prefix": "apiErrorExample",
 		"body": [
 			"@apiErrorExample {${type}} ${title:Error-Response:}",
 			"    ${example}"
@@ -126,7 +126,7 @@
 		"description": "ApiDoc Error Example"
 	},
 	"apiParamExample": {
-		"prefix": "adParamExample",
+		"prefix": "apiParamExample",
 		"body": [
 			"@apiParamExample  {${type}} ${title:Request-Example:}",
 			"    ${example}"
@@ -134,7 +134,7 @@
 		"description": "ApiDoc Param Example"
 	},
 	"apiSuccessExample": {
-		"prefix": "adSuccessExample ",
+		"prefix": "apiSuccessExample ",
 		"body": [
 			"@apiSuccessExample {${type}} ${title:Success-Response:}",
 			"    ${example}"
@@ -142,7 +142,7 @@
 		"description": "ApiDoc Param Example"
 	},
 	"apiHeaderExample": {
-		"prefix": "adHeaderExample",
+		"prefix": "apiHeaderExample",
 		"body": [
 			"@apiHeaderExample {${type}} ${title:Request-Example:}",
 			"    ${example}"
@@ -150,7 +150,7 @@
 		"description": "ApiDoc Header Example"
 	},
 	"apiExample": {
-		"prefix": "adExample",
+		"prefix": "apiExample",
 		"body": [
 			"@apiExample {${type}} ${title:Example usage:}",
 			"    ${example}"
@@ -158,14 +158,14 @@
 		"description": "ApiDoc Error Example"
 	},
 	"apiSampleRequest": {
-		"prefix": "adSampleRequest",
+		"prefix": "apiSampleRequest",
 		"body": [
 			"@apiSampleRequest ${url}"
 		],
 		"description": "ApiDoc Sample Request"
 	},
 	"apiPermission": {
-		"prefix": "adPermission",
+		"prefix": "apiPermission",
 		"body": [
 			"@apiPermission ${name}"
 		],

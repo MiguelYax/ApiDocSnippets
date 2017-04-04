@@ -1,11 +1,14 @@
+= 0.1.9 (2017-03-31)
+
+* change prefix "ad" to "api" + snippet name
 
 = 0.1.8 (2017-03-31)
 
-* add example use 
+* add example use
 
 = 0.1.7 (2017-03-31)
 
-* Fix  example space to documentation 
+* Fix  example space to documentation
 
 = 0.1.5 (2017-03-31)
 
@@ -13,7 +16,7 @@
 
 = 0.1.3 (2017-03-31)
 
-* Fix duplicated prefix to documentation 
+* Fix duplicated prefix to documentation
 
 = 0.1.2 (2017-03-30)
 
