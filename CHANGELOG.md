@@ -1,3 +1,7 @@
+## 0.1.10 (2017-05-09)
+
+* support typescript files .ts
+
 ## 0.1.9 (2017-04-03)
 
 * change prefix "ad" to "api" + snippet name
