@@ -44,6 +44,15 @@
         "extensions": [
           ".ts"
         ]
+      },
+      {
+        "id": "go",
+        "aliases": [
+          "GoLang"
+        ],
+        "extensions": [
+          ".go"
+        ]
       }
     ],
     "snippets": [
@@ -53,6 +62,10 @@
       },
       {
         "language": "typescript",
+        "path": "./snippets/apiDocSnippets.json"
+      },
+      {
+        "language": "go",
         "path": "./snippets/apiDocSnippets.json"
       }
     ]
