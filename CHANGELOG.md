@@ -1,3 +1,8 @@
+
+## 0.1.12 (2017-07-25)
+
+*  add support to .go files
+
 ## 0.1.11 (2017-05-09)
 
 * support typescript files .ts
