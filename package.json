@@ -81,6 +81,10 @@
       {
         "language": "go",
         "path": "./snippets/apiDocSnippets.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/apiDocSnippets.json"
       }
     ]
   },
