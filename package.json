@@ -1,6 +1,6 @@
 {
   "name": "appidocsnippets",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "displayName": "ApiDoc Snippets",
   "description": "Inline Documentation for RESTful web APIs with ApiDoc - Snippets",
   "publisher": "myax",
@@ -34,6 +34,20 @@
         ],
         "extensions": [
           ".js"
+        ]
+      },
+      {
+        "id": "php",
+        "aliases": [
+          "PHP",
+          "php"
+        ],
+        "extensions": [
+          ".php",
+          ".php4",
+          ".php5",
+          ".phtml",
+          ".ctp"
         ]
       },
       {
