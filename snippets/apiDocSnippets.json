@@ -24,15 +24,15 @@
 			" * @apiSuccess ${12:(${13:200})} {${14:type}} ${15:name} ${16:description}",
 			" * ",
 			" * @apiParamExample  {${17:type}} ${18:Request-Example:}",
-			"   {",
-			"       ${19:property} : ${20:value}",
-			"   }",
+			" * {",
+			" *     ${19:property} : ${20:value}",
+			" * }",
 			" * ",
 			" * ",
 			" * @apiSuccessExample {${21:type}} ${22:Success-Response:}",
-			"   {",
-			"       ${23:property} : ${24:value}",
-			"   }",
+			" * {",
+			" *     ${23:property} : ${24:value}",
+			" * }",
 			" * ",
 			" * ",
 			" */"
@@ -113,7 +113,7 @@
 		"prefix": "apiDefine",
 		"body": [
 			"@apiDefine ${name} ${title}",
-			"    ${description} "
+			"*    ${description} "
 		],
 		"description": "ApiDoc Define"
 	},
@@ -129,7 +129,7 @@
 		"prefix": "apiParamExample",
 		"body": [
 			"@apiParamExample  {${type}} ${title:Request-Example:}",
-			"    ${example}"
+			"*    ${example}"
 		],
 		"description": "ApiDoc Param Example"
 	},
@@ -137,7 +137,7 @@
 		"prefix": "apiSuccessExample ",
 		"body": [
 			"@apiSuccessExample {${type}} ${title:Success-Response:}",
-			"    ${example}"
+			"*    ${example}"
 		],
 		"description": "ApiDoc Param Example"
 	},
@@ -145,7 +145,7 @@
 		"prefix": "apiHeaderExample",
 		"body": [
 			"@apiHeaderExample {${type}} ${title:Request-Example:}",
-			"    ${example}"
+			"*    ${example}"
 		],
 		"description": "ApiDoc Header Example"
 	},
@@ -153,7 +153,7 @@
 		"prefix": "apiExample",
 		"body": [
 			"@apiExample {${type}} ${title:Example usage:}",
-			"    ${example}"
+			"*    ${example}"
 		],
 		"description": "ApiDoc Error Example"
 	},
