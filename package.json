@@ -1,6 +1,6 @@
 {
   "name": "appidocsnippets",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "displayName": "ApiDoc Snippets",
   "description": "Inline Documentation for RESTful web APIs with ApiDoc - Snippets",
   "publisher": "myax",
@@ -67,6 +67,15 @@
         "extensions": [
           ".go"
         ]
+      },
+      {
+        "id": "py",
+        "aliases": [
+          "Phython"
+        ],
+        "extensions": [
+          ".py"
+        ]
       }
     ],
     "snippets": [
@@ -85,6 +94,10 @@
       {
         "language": "php",
         "path": "./snippets/apiDocSnippets.json"
+      },
+      {
+        "language": "py",
+        "path": "./snippets/phytonSnippets.json"
       }
     ]
   },
