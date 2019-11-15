@@ -76,6 +76,15 @@
         "extensions": [
           ".py"
         ]
+      },
+      {
+        "id": "ruby",
+        "aliases": [
+          "Ruby"
+        ],
+        "extensions": [
+          ".rb"
+        ]
       }
     ],
     "snippets": [
@@ -98,6 +107,10 @@
       {
         "language": "python",
         "path": "./snippets/pythonSnippets.json"
+      },
+      {
+        "language": "ruby",
+        "path": "./snippets/rubySnippets.json"
       }
     ]
   },
