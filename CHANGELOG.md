@@ -1,3 +1,7 @@
+## 0.1.20 (2020-03-07)
+
+*  add support to ruby files
+
 ## 0.1.19 (2018-09-11)
 
 *  add support to python files
