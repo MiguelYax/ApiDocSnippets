@@ -116,6 +116,6 @@
   },
   "devDependencies": {
     "apidoc": "^0.17.5",
-    "express": "^4.15.2"
+    "eslint": "^7.16.0"
   }
 }
