@@ -1,15 +1,10 @@
-# ApiDoc Snippets  
-appidocsnippets  
-
-  # Inline Documentation for RESTful web APIs with ApiDoc - Snippets 
-### Basic documetation example: 
-
+# ApiDoc Snippets
+# Inline Documentation for RESTful web APIs with ApiDoc - Snippets
+### Basic documetation example:
 ![Image of Snippets](https://raw.githubusercontent.com/Krazeus/ApiDocSnippets/master/images/basic.gif) 
-### Custom documentation example: 
-
+### Custom documentation example:
 ![Image of Snippets](https://raw.githubusercontent.com/Krazeus/ApiDocSnippets/master/images/custom.gif) 
-### Content:  
-
+## Content:
 - [ApiDoc Api](#api)
 - [ApiDoc Define](#apidefine)
 - [ApiDoc Deprecated](#apideprecated)
@@ -30,37 +25,30 @@ appidocsnippets
 - [ApiDoc Use](#apiuse)
 - [ApiDoc Version](#apiversion)
 - [comment code](#comment)
-
-
-### Example:  
-
+## Example:
 ### @api
-#### `apiApi + tab` 
+#### `apiApi + tab`
 ```
 @api {${method}} /${path} ${title}
-``` 
-
+```
 ### @apiDefine
-#### `apiDefine + tab` 
+#### `apiDefine + tab`
 ```
 @apiDefine ${name} ${title}
-    ${description} 
-``` 
-
+*    ${description} 
+```
 ### @apiDeprecated
-#### `apiDeprecated + tab` 
+#### `apiDeprecated + tab`
 ```
 @apiDeprecated ${text}
-``` 
-
+```
 ### @apiDescription
-#### `apiDescription + tab` 
+#### `apiDescription + tab`
 ```
 @apiDescription ${text}
-``` 
-
+```
 ### @apiDocumentation
-#### `apiDocumentation + tab` 
+#### `apiDocumentation + tab`
 ```
 /**
  * 
@@ -75,114 +63,102 @@ appidocsnippets
  * @apiSuccess ${12:(${13:200})} {${14:type}} ${15:name} ${16:description}
  * 
  * @apiParamExample  {${17:type}} ${18:Request-Example:}
-   {
-       ${19:property} : ${20:value}
-   }
+ * {
+ *     ${19:property} : ${20:value}
+ * }
  * 
  * 
  * @apiSuccessExample {${21:type}} ${22:Success-Response:}
-   {
-       ${23:property} : ${24:value}
-   }
+ * {
+ *     ${23:property} : ${24:value}
+ * }
  * 
  * 
  */
-``` 
-
+```
 ### @apiErrorExample
-#### `apiErrorExample + tab` 
+#### `apiErrorExample + tab`
 ```
 @apiErrorExample {${type}} ${title:Error-Response:}
     ${example}
-``` 
-
+```
 ### @apiExample
-#### `apiExample + tab` 
+#### `apiExample + tab`
 ```
 @apiExample {${type}} ${title:Example usage:}
-    ${example}
-``` 
-
+*    ${example}
+```
 ### @apiGroup
-#### `apiGroup + tab` 
+#### `apiGroup + tab`
 ```
 @apiGroup ${group}
-``` 
-
+```
 ### @apiHeader
-#### `apiHeader + tab` 
+#### `apiHeader + tab`
 ```
 @apiHeader ${group:(${code:200})} {${type}} ${field} ${description}
-``` 
-
+```
 ### @apiHeaderExample
-#### `apiHeaderExample + tab` 
+#### `apiHeaderExample + tab`
 ```
 @apiHeaderExample {${type}} ${title:Request-Example:}
-    ${example}
-``` 
-
+*    ${example}
+```
 ### @apiName
-#### `apiName + tab` 
+#### `apiName + tab`
 ```
 @apiName ${name}
-``` 
-
+```
 ### @apiParam
-#### `apiParam + tab` 
+#### `apiParam + tab`
 ```
 @apiParam  {${String}} ${name} ${description}
-``` 
-
+```
 ### @apiParamExample
-#### `apiParamExample + tab` 
+#### `apiParamExample + tab`
 ```
 @apiParamExample  {${type}} ${title:Request-Example:}
-    ${example}
-``` 
-
+*    ${example}
+```
 ### @apiPermission
-#### `apiPermission + tab` 
+#### `apiPermission + tab`
 ```
 @apiPermission ${name}
-``` 
-
+```
 ### @apiSampleRequest
-#### `apiSampleRequest + tab` 
+#### `apiSampleRequest + tab`
 ```
 @apiSampleRequest ${url}
-``` 
-
+```
 ### @apiSuccess
-#### `apiSuccess + tab` 
+#### `apiSuccess + tab`
 ```
 @apiSuccess ${group:(${code:200})} {${type}} ${name} ${description}
-``` 
-
+```
 ### @apiSuccessExample
-#### `apiSuccessExample  + tab` 
+#### `apiSuccessExample  + tab`
 ```
 @apiSuccessExample {${type}} ${title:Success-Response:}
-    ${example}
-``` 
-
+*    ${example}
+```
 ### @apiUse
-#### `apiUse + tab` 
+#### `apiUse + tab`
 ```
 @apiUse ${name}
-``` 
-
+```
 ### @apiVersion
-#### `apiVersion + tab` 
+#### `apiVersion + tab`
 ```
 @apiVersion  ${major}.${minor}.${patch}
-``` 
-
+```
 ### @comment
-#### `cc + tab` 
+#### `cc + tab`
 ```
 /**
  * ${1}
  */
-``` 
-
+```
+# Contribution
+* Something is missing?
+* If you have ideas on how to improve this project let us know.
+* All contributions are welcome!
