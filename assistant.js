@@ -4,39 +4,50 @@
  * generate readme.md based snippet's definition
  */
 
-let fs = require('fs');
-const package = require('./package.json');
+const { writeFile } = require('fs');
+const { displayName, description } = require('./package.json');
 const rawSnippets = require('./snippets/apiDocSnippets.json');
 
-let contentList = [];
-let documentList = [];
+const contentList = ['## Content:'];
+const exampleList = ['## Example:'];
 
-let keyList = Object.keys(rawSnippets);
-keyList.sort();
-for (let index = 0; index < keyList.length; index++) {
-    let name = keyList[index];
-    let snippet = rawSnippets[name];
-    let lowerName = name.toLowerCase().replace(/\s/g, '-');
-    contentList.push('- [' + snippet.description + '](#' + lowerName + ')\n');
-    documentList.push('### @' + name + '\n');
-    documentList.push('#### `' + snippet.prefix + ' + tab` \n');
-    documentList.push('```\n' + snippet.body.join('\n') + '\n``` \n\n');
+Object
+  .keys(rawSnippets)
+  .sort()
+  .forEach(name => {
+    const { description, prefix, body } = rawSnippets[name];
+    const lowerName = name.toLowerCase().replace(/\s/g, '-');
+    contentList.push(`- [${description}](#${lowerName})`);
+    exampleList.push(
+      `### @${name}`,
+      `#### \`${prefix} + tab\``,
+      '```',
+      ...body,
+      '```');
+  });
 
-}
-let docContent = '# ' + package.displayName + '  \n' + package.name + '  \n\n  # ' + package.description + ' \n';
-docContent += "### Basic documetation example: \n\n";
-docContent += '![Image of Snippets](https://raw.githubusercontent.com/Krazeus/ApiDocSnippets/master/images/basic.gif) \n';
-docContent += "### Custom documentation example: \n\n";
-docContent += '![Image of Snippets](https://raw.githubusercontent.com/Krazeus/ApiDocSnippets/master/images/custom.gif) \n';
+const contributionList = [
+  '# Contribution',
+  '* Something is missing?',
+  '* If you have ideas on how to improve this project let us know.',
+  '* All contributions are welcome!'
+];
 
-docContent += '### Content:  \n\n';
-docContent += contentList.join('') + '\n\n';
-docContent += '### Example:  \n\n';
-docContent += documentList.join('');
+const docContent = [
+  `# ${displayName}`,
+  `# ${description}`,
+  '### Basic documetation example:',
+  '![Image of Snippets](https://raw.githubusercontent.com/Krazeus/ApiDocSnippets/master/images/basic.gif) ',
+  '### Custom documentation example:',
+  '![Image of Snippets](https://raw.githubusercontent.com/Krazeus/ApiDocSnippets/master/images/custom.gif) ',
+  ...contentList,
+  ...exampleList,
+  ...contributionList
+];
 
-fs.writeFile('README.md', docContent, function (err) {
-    if (err) {
-        return console.log(err);
-    }
-    console.log('Writed');
+writeFile('README.md', docContent.join('\n'), (err) => {
+  if (err) {
+    return console.log(err);
+  }
+  console.log('Writed');
 });
