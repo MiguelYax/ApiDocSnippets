@@ -9,7 +9,8 @@
   "scripts": {
     "generate-readme": "node assistant.js",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "postversion": "git push && git push --tags"
   },
   "engines": {
     "vscode": "^0.10.1"
