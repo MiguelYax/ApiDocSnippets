@@ -6,6 +6,11 @@
   "publisher": "myax",
   "author": "Miguel Yax <mig_dj@hotmail.com>",
   "icon": "images/icon.png",
+  "scripts": {
+    "generate-readme": "node assistant.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
   "engines": {
     "vscode": "^0.10.1"
   },
@@ -115,7 +120,6 @@
     ]
   },
   "devDependencies": {
-    "apidoc": "^0.17.5",
-    "eslint": "^7.16.0"
+    "eslint": "^8.18.0"
   }
 }
