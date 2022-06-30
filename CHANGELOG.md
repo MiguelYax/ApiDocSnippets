@@ -1,3 +1,8 @@
+## 0.1.24 (2022-06-29)
+* Update project dependencies
+* Add github action
+* Add MIT licence
+
 ## 0.1.20 (2020-03-07)
 
 *  add support to ruby files
